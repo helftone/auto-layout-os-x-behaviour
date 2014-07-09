@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B6B6931968984700C007E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6921968984700C007E8 /* Foundation.framework */; };
+		F3B6B6951968984700C007E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6941968984700C007E8 /* CoreGraphics.framework */; };
+		F3B6B6971968984700C007E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6961968984700C007E8 /* UIKit.framework */; };
+		F3B6B69D1968984700C007E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B69B1968984700C007E8 /* InfoPlist.strings */; };
+		F3B6B69F1968984700C007E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B69E1968984700C007E8 /* main.m */; };
+		F3B6B6A31968984700C007E8 /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B6A21968984700C007E8 /* HTAppDelegate.m */; };
+		F3B6B6A61968984700C007E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6A41968984700C007E8 /* Main.storyboard */; };
+		F3B6B6A91968984700C007E8 /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B6A81968984700C007E8 /* HTViewController.m */; };
+		F3B6B6AB1968984700C007E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6AA1968984700C007E8 /* Images.xcassets */; };
+		F3B6B6B21968984700C007E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6B11968984700C007E8 /* XCTest.framework */; };
+		F3B6B6B31968984700C007E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6921968984700C007E8 /* Foundation.framework */; };
+		F3B6B6B41968984700C007E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6961968984700C007E8 /* UIKit.framework */; };
+		F3B6B6BC1968984700C007E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6BA1968984700C007E8 /* InfoPlist.strings */; };
+		F3B6B6BE1968984700C007E8 /* Cocoa_Touch_Autolayout_MixedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B6BD1968984700C007E8 /* Cocoa_Touch_Autolayout_MixedTests.m */; };
+		F3B6B6C919689DDF00C007E8 /* HTContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B6C819689DDF00C007E8 /* HTContainerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B6B6B51968984700C007E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B6B6871968984600C007E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B6B68E1968984700C007E8;
+			remoteInfo = "Cocoa-Touch-Autolayout-Mixed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B6B68F1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa-Touch-Autolayout-Mixed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B6B6921968984700C007E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3B6B6941968984700C007E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3B6B6961968984700C007E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3B6B69A1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Touch-Autolayout-Mixed-Info.plist"; sourceTree = "<group>"; };
+		F3B6B69C1968984700C007E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B6B69E1968984700C007E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B6B6A01968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoa-Touch-Autolayout-Mixed-Prefix.pch"; sourceTree = "<group>"; };
+		F3B6B6A11968984700C007E8 /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		F3B6B6A21968984700C007E8 /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		F3B6B6A51968984700C007E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B6B6A71968984700C007E8 /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
+		F3B6B6A81968984700C007E8 /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
+		F3B6B6AA1968984700C007E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3B6B6B01968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocoa-Touch-Autolayout-MixedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B6B6B11968984700C007E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3B6B6B91968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Touch-Autolayout-MixedTests-Info.plist"; sourceTree = "<group>"; };
+		F3B6B6BB1968984700C007E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B6B6BD1968984700C007E8 /* Cocoa_Touch_Autolayout_MixedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocoa_Touch_Autolayout_MixedTests.m; sourceTree = "<group>"; };
+		F3B6B6C719689DDF00C007E8 /* HTContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTContainerView.h; sourceTree = "<group>"; };
+		F3B6B6C819689DDF00C007E8 /* HTContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTContainerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B6B68C1968984700C007E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6951968984700C007E8 /* CoreGraphics.framework in Frameworks */,
+				F3B6B6971968984700C007E8 /* UIKit.framework in Frameworks */,
+				F3B6B6931968984700C007E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B6B6AD1968984700C007E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6B21968984700C007E8 /* XCTest.framework in Frameworks */,
+				F3B6B6B41968984700C007E8 /* UIKit.framework in Frameworks */,
+				F3B6B6B31968984700C007E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B6B6861968984600C007E8 = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6981968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed */,
+				F3B6B6B71968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests */,
+				F3B6B6911968984700C007E8 /* Frameworks */,
+				F3B6B6901968984700C007E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B6B6901968984700C007E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B68F1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed.app */,
+				F3B6B6B01968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B6B6911968984700C007E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6921968984700C007E8 /* Foundation.framework */,
+				F3B6B6941968984700C007E8 /* CoreGraphics.framework */,
+				F3B6B6961968984700C007E8 /* UIKit.framework */,
+				F3B6B6B11968984700C007E8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B6B6981968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6A11968984700C007E8 /* HTAppDelegate.h */,
+				F3B6B6A21968984700C007E8 /* HTAppDelegate.m */,
+				F3B6B6A41968984700C007E8 /* Main.storyboard */,
+				F3B6B6A71968984700C007E8 /* HTViewController.h */,
+				F3B6B6A81968984700C007E8 /* HTViewController.m */,
+				F3B6B6AA1968984700C007E8 /* Images.xcassets */,
+				F3B6B6991968984700C007E8 /* Supporting Files */,
+				F3B6B6C719689DDF00C007E8 /* HTContainerView.h */,
+				F3B6B6C819689DDF00C007E8 /* HTContainerView.m */,
+			);
+			path = "Cocoa-Touch-Autolayout-Mixed";
+			sourceTree = "<group>";
+		};
+		F3B6B6991968984700C007E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B69A1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed-Info.plist */,
+				F3B6B69B1968984700C007E8 /* InfoPlist.strings */,
+				F3B6B69E1968984700C007E8 /* main.m */,
+				F3B6B6A01968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B6B6B71968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6BD1968984700C007E8 /* Cocoa_Touch_Autolayout_MixedTests.m */,
+				F3B6B6B81968984700C007E8 /* Supporting Files */,
+			);
+			path = "Cocoa-Touch-Autolayout-MixedTests";
+			sourceTree = "<group>";
+		};
+		F3B6B6B81968984700C007E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6B91968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests-Info.plist */,
+				F3B6B6BA1968984700C007E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B6B68E1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B6B6C11968984700C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-Mixed" */;
+			buildPhases = (
+				F3B6B68B1968984700C007E8 /* Sources */,
+				F3B6B68C1968984700C007E8 /* Frameworks */,
+				F3B6B68D1968984700C007E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoa-Touch-Autolayout-Mixed";
+			productName = "Cocoa-Touch-Autolayout-Mixed";
+			productReference = F3B6B68F1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B6B6AF1968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B6B6C41968984700C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-MixedTests" */;
+			buildPhases = (
+				F3B6B6AC1968984700C007E8 /* Sources */,
+				F3B6B6AD1968984700C007E8 /* Frameworks */,
+				F3B6B6AE1968984700C007E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B6B6B61968984700C007E8 /* PBXTargetDependency */,
+			);
+			name = "Cocoa-Touch-Autolayout-MixedTests";
+			productName = "Cocoa-Touch-Autolayout-MixedTests";
+			productReference = F3B6B6B01968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B6B6871968984600C007E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Helftone;
+				TargetAttributes = {
+					F3B6B6AF1968984700C007E8 = {
+						TestTargetID = F3B6B68E1968984700C007E8;
+					};
+				};
+			};
+			buildConfigurationList = F3B6B68A1968984600C007E8 /* Build configuration list for PBXProject "Cocoa-Touch-Autolayout-Mixed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B6B6861968984600C007E8;
+			productRefGroup = F3B6B6901968984700C007E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B6B68E1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed */,
+				F3B6B6AF1968984700C007E8 /* Cocoa-Touch-Autolayout-MixedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B6B68D1968984700C007E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6AB1968984700C007E8 /* Images.xcassets in Resources */,
+				F3B6B69D1968984700C007E8 /* InfoPlist.strings in Resources */,
+				F3B6B6A61968984700C007E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B6B6AE1968984700C007E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6BC1968984700C007E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B6B68B1968984700C007E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6A91968984700C007E8 /* HTViewController.m in Sources */,
+				F3B6B6A31968984700C007E8 /* HTAppDelegate.m in Sources */,
+				F3B6B6C919689DDF00C007E8 /* HTContainerView.m in Sources */,
+				F3B6B69F1968984700C007E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B6B6AC1968984700C007E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6BE1968984700C007E8 /* Cocoa_Touch_Autolayout_MixedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B6B6B61968984700C007E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B6B68E1968984700C007E8 /* Cocoa-Touch-Autolayout-Mixed */;
+			targetProxy = F3B6B6B51968984700C007E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B6B69B1968984700C007E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6B69C1968984700C007E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3B6B6A41968984700C007E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6B6A51968984700C007E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B6B6BA1968984700C007E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6B6BB1968984700C007E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B6B6BF1968984700C007E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F3B6B6C01968984700C007E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B6B6C21968984700C007E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Mixed/Cocoa-Touch-Autolayout-Mixed-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-Mixed/Cocoa-Touch-Autolayout-Mixed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3B6B6C31968984700C007E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Mixed/Cocoa-Touch-Autolayout-Mixed-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-Mixed/Cocoa-Touch-Autolayout-Mixed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3B6B6C51968984700C007E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Touch-Autolayout-Mixed.app/Cocoa-Touch-Autolayout-Mixed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Mixed/Cocoa-Touch-Autolayout-Mixed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-MixedTests/Cocoa-Touch-Autolayout-MixedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3B6B6C61968984700C007E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Touch-Autolayout-Mixed.app/Cocoa-Touch-Autolayout-Mixed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Mixed/Cocoa-Touch-Autolayout-Mixed-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-MixedTests/Cocoa-Touch-Autolayout-MixedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B6B68A1968984600C007E8 /* Build configuration list for PBXProject "Cocoa-Touch-Autolayout-Mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B6B6BF1968984700C007E8 /* Debug */,
+				F3B6B6C01968984700C007E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B6B6C11968984700C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-Mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B6B6C21968984700C007E8 /* Debug */,
+				F3B6B6C31968984700C007E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3B6B6C41968984700C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-MixedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B6B6C51968984700C007E8 /* Debug */,
+				F3B6B6C61968984700C007E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B6B6871968984600C007E8 /* Project object */;
+}

@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B6B6D71968BAC100C007E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6D61968BAC100C007E8 /* Cocoa.framework */; };
+		F3B6B6E11968BAC100C007E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6DF1968BAC100C007E8 /* InfoPlist.strings */; };
+		F3B6B6E31968BAC100C007E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B6E21968BAC100C007E8 /* main.m */; };
+		F3B6B6E71968BAC100C007E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6E51968BAC100C007E8 /* Credits.rtf */; };
+		F3B6B6EA1968BAC100C007E8 /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B6E91968BAC100C007E8 /* HTAppDelegate.m */; };
+		F3B6B6ED1968BAC100C007E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6EB1968BAC100C007E8 /* MainMenu.xib */; };
+		F3B6B6EF1968BAC100C007E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6EE1968BAC100C007E8 /* Images.xcassets */; };
+		F3B6B6F61968BAC100C007E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6F51968BAC100C007E8 /* XCTest.framework */; };
+		F3B6B6F71968BAC100C007E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B6B6D61968BAC100C007E8 /* Cocoa.framework */; };
+		F3B6B6FF1968BAC100C007E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B6B6FD1968BAC100C007E8 /* InfoPlist.strings */; };
+		F3B6B7011968BAC100C007E8 /* Cocoa_Autolayout_MixedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B7001968BAC100C007E8 /* Cocoa_Autolayout_MixedTests.m */; };
+		F3B6B70C1968BB8F00C007E8 /* HTContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6B70B1968BB8F00C007E8 /* HTContainerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B6B6F81968BAC100C007E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B6B6CB1968BAC100C007E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B6B6D21968BAC100C007E8;
+			remoteInfo = "Cocoa-Autolayout-Mixed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B6B6D31968BAC100C007E8 /* Cocoa-Autolayout-Mixed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa-Autolayout-Mixed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B6B6D61968BAC100C007E8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F3B6B6D91968BAC100C007E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F3B6B6DA1968BAC100C007E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F3B6B6DB1968BAC100C007E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3B6B6DE1968BAC100C007E8 /* Cocoa-Autolayout-Mixed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Autolayout-Mixed-Info.plist"; sourceTree = "<group>"; };
+		F3B6B6E01968BAC100C007E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B6B6E21968BAC100C007E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B6B6E41968BAC100C007E8 /* Cocoa-Autolayout-Mixed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoa-Autolayout-Mixed-Prefix.pch"; sourceTree = "<group>"; };
+		F3B6B6E61968BAC100C007E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F3B6B6E81968BAC100C007E8 /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		F3B6B6E91968BAC100C007E8 /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		F3B6B6EC1968BAC100C007E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F3B6B6EE1968BAC100C007E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3B6B6F41968BAC100C007E8 /* Cocoa-Autolayout-MixedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocoa-Autolayout-MixedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B6B6F51968BAC100C007E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3B6B6FC1968BAC100C007E8 /* Cocoa-Autolayout-MixedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Autolayout-MixedTests-Info.plist"; sourceTree = "<group>"; };
+		F3B6B6FE1968BAC100C007E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B6B7001968BAC100C007E8 /* Cocoa_Autolayout_MixedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocoa_Autolayout_MixedTests.m; sourceTree = "<group>"; };
+		F3B6B70A1968BB8F00C007E8 /* HTContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTContainerView.h; sourceTree = "<group>"; };
+		F3B6B70B1968BB8F00C007E8 /* HTContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTContainerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B6B6D01968BAC100C007E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6D71968BAC100C007E8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B6B6F11968BAC100C007E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6F71968BAC100C007E8 /* Cocoa.framework in Frameworks */,
+				F3B6B6F61968BAC100C007E8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B6B6CA1968BAC100C007E8 = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6DC1968BAC100C007E8 /* Cocoa-Autolayout-Mixed */,
+				F3B6B6FA1968BAC100C007E8 /* Cocoa-Autolayout-MixedTests */,
+				F3B6B6D51968BAC100C007E8 /* Frameworks */,
+				F3B6B6D41968BAC100C007E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B6B6D41968BAC100C007E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6D31968BAC100C007E8 /* Cocoa-Autolayout-Mixed.app */,
+				F3B6B6F41968BAC100C007E8 /* Cocoa-Autolayout-MixedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B6B6D51968BAC100C007E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6D61968BAC100C007E8 /* Cocoa.framework */,
+				F3B6B6F51968BAC100C007E8 /* XCTest.framework */,
+				F3B6B6D81968BAC100C007E8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B6B6D81968BAC100C007E8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6D91968BAC100C007E8 /* AppKit.framework */,
+				F3B6B6DA1968BAC100C007E8 /* CoreData.framework */,
+				F3B6B6DB1968BAC100C007E8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F3B6B6DC1968BAC100C007E8 /* Cocoa-Autolayout-Mixed */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6E81968BAC100C007E8 /* HTAppDelegate.h */,
+				F3B6B6E91968BAC100C007E8 /* HTAppDelegate.m */,
+				F3B6B6EB1968BAC100C007E8 /* MainMenu.xib */,
+				F3B6B6EE1968BAC100C007E8 /* Images.xcassets */,
+				F3B6B6DD1968BAC100C007E8 /* Supporting Files */,
+				F3B6B70A1968BB8F00C007E8 /* HTContainerView.h */,
+				F3B6B70B1968BB8F00C007E8 /* HTContainerView.m */,
+			);
+			path = "Cocoa-Autolayout-Mixed";
+			sourceTree = "<group>";
+		};
+		F3B6B6DD1968BAC100C007E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6DE1968BAC100C007E8 /* Cocoa-Autolayout-Mixed-Info.plist */,
+				F3B6B6DF1968BAC100C007E8 /* InfoPlist.strings */,
+				F3B6B6E21968BAC100C007E8 /* main.m */,
+				F3B6B6E41968BAC100C007E8 /* Cocoa-Autolayout-Mixed-Prefix.pch */,
+				F3B6B6E51968BAC100C007E8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B6B6FA1968BAC100C007E8 /* Cocoa-Autolayout-MixedTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B7001968BAC100C007E8 /* Cocoa_Autolayout_MixedTests.m */,
+				F3B6B6FB1968BAC100C007E8 /* Supporting Files */,
+			);
+			path = "Cocoa-Autolayout-MixedTests";
+			sourceTree = "<group>";
+		};
+		F3B6B6FB1968BAC100C007E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6B6FC1968BAC100C007E8 /* Cocoa-Autolayout-MixedTests-Info.plist */,
+				F3B6B6FD1968BAC100C007E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B6B6D21968BAC100C007E8 /* Cocoa-Autolayout-Mixed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B6B7041968BAC100C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-Mixed" */;
+			buildPhases = (
+				F3B6B6CF1968BAC100C007E8 /* Sources */,
+				F3B6B6D01968BAC100C007E8 /* Frameworks */,
+				F3B6B6D11968BAC100C007E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoa-Autolayout-Mixed";
+			productName = "Cocoa-Autolayout-Mixed";
+			productReference = F3B6B6D31968BAC100C007E8 /* Cocoa-Autolayout-Mixed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B6B6F31968BAC100C007E8 /* Cocoa-Autolayout-MixedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B6B7071968BAC100C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-MixedTests" */;
+			buildPhases = (
+				F3B6B6F01968BAC100C007E8 /* Sources */,
+				F3B6B6F11968BAC100C007E8 /* Frameworks */,
+				F3B6B6F21968BAC100C007E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B6B6F91968BAC100C007E8 /* PBXTargetDependency */,
+			);
+			name = "Cocoa-Autolayout-MixedTests";
+			productName = "Cocoa-Autolayout-MixedTests";
+			productReference = F3B6B6F41968BAC100C007E8 /* Cocoa-Autolayout-MixedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B6B6CB1968BAC100C007E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Helftone;
+				TargetAttributes = {
+					F3B6B6F31968BAC100C007E8 = {
+						TestTargetID = F3B6B6D21968BAC100C007E8;
+					};
+				};
+			};
+			buildConfigurationList = F3B6B6CE1968BAC100C007E8 /* Build configuration list for PBXProject "Cocoa-Autolayout-Mixed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B6B6CA1968BAC100C007E8;
+			productRefGroup = F3B6B6D41968BAC100C007E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B6B6D21968BAC100C007E8 /* Cocoa-Autolayout-Mixed */,
+				F3B6B6F31968BAC100C007E8 /* Cocoa-Autolayout-MixedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B6B6D11968BAC100C007E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6E11968BAC100C007E8 /* InfoPlist.strings in Resources */,
+				F3B6B6EF1968BAC100C007E8 /* Images.xcassets in Resources */,
+				F3B6B6E71968BAC100C007E8 /* Credits.rtf in Resources */,
+				F3B6B6ED1968BAC100C007E8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B6B6F21968BAC100C007E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6FF1968BAC100C007E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B6B6CF1968BAC100C007E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B6EA1968BAC100C007E8 /* HTAppDelegate.m in Sources */,
+				F3B6B6E31968BAC100C007E8 /* main.m in Sources */,
+				F3B6B70C1968BB8F00C007E8 /* HTContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B6B6F01968BAC100C007E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B7011968BAC100C007E8 /* Cocoa_Autolayout_MixedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B6B6F91968BAC100C007E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B6B6D21968BAC100C007E8 /* Cocoa-Autolayout-Mixed */;
+			targetProxy = F3B6B6F81968BAC100C007E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B6B6DF1968BAC100C007E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6B6E01968BAC100C007E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3B6B6E51968BAC100C007E8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6B6E61968BAC100C007E8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F3B6B6EB1968BAC100C007E8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6B6EC1968BAC100C007E8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F3B6B6FD1968BAC100C007E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6B6FE1968BAC100C007E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B6B7021968BAC100C007E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F3B6B7031968BAC100C007E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3B6B7051968BAC100C007E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Mixed/Cocoa-Autolayout-Mixed-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Autolayout-Mixed/Cocoa-Autolayout-Mixed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3B6B7061968BAC100C007E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Mixed/Cocoa-Autolayout-Mixed-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Autolayout-Mixed/Cocoa-Autolayout-Mixed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3B6B7081968BAC100C007E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Autolayout-Mixed.app/Contents/MacOS/Cocoa-Autolayout-Mixed";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Mixed/Cocoa-Autolayout-Mixed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cocoa-Autolayout-MixedTests/Cocoa-Autolayout-MixedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3B6B7091968BAC100C007E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Autolayout-Mixed.app/Contents/MacOS/Cocoa-Autolayout-Mixed";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Mixed/Cocoa-Autolayout-Mixed-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Autolayout-MixedTests/Cocoa-Autolayout-MixedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B6B6CE1968BAC100C007E8 /* Build configuration list for PBXProject "Cocoa-Autolayout-Mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B6B7021968BAC100C007E8 /* Debug */,
+				F3B6B7031968BAC100C007E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B6B7041968BAC100C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-Mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B6B7051968BAC100C007E8 /* Debug */,
+				F3B6B7061968BAC100C007E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3B6B7071968BAC100C007E8 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-MixedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B6B7081968BAC100C007E8 /* Debug */,
+				F3B6B7091968BAC100C007E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B6B6CB1968BAC100C007E8 /* Project object */;
+}

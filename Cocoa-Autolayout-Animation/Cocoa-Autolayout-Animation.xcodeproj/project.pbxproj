@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B479FD19684CB60045F5A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B479FC19684CB60045F5A4 /* Cocoa.framework */; };
+		F3B47A0719684CB60045F5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A0519684CB60045F5A4 /* InfoPlist.strings */; };
+		F3B47A0919684CB60045F5A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A0819684CB60045F5A4 /* main.m */; };
+		F3B47A0D19684CB60045F5A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A0B19684CB60045F5A4 /* Credits.rtf */; };
+		F3B47A1019684CB60045F5A4 /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A0F19684CB60045F5A4 /* HTAppDelegate.m */; };
+		F3B47A1319684CB60045F5A4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A1119684CB60045F5A4 /* MainMenu.xib */; };
+		F3B47A1519684CB60045F5A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A1419684CB60045F5A4 /* Images.xcassets */; };
+		F3B47A1C19684CB60045F5A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A1B19684CB60045F5A4 /* XCTest.framework */; };
+		F3B47A1D19684CB60045F5A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B479FC19684CB60045F5A4 /* Cocoa.framework */; };
+		F3B47A2519684CB60045F5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A2319684CB60045F5A4 /* InfoPlist.strings */; };
+		F3B47A2719684CB60045F5A4 /* Cocoa_Autolayout_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A2619684CB60045F5A4 /* Cocoa_Autolayout_AnimationTests.m */; };
+		F3B47A31196853E60045F5A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A30196853E60045F5A4 /* QuartzCore.framework */; };
+		F3B47A3419685AF10045F5A4 /* HTContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A3319685AF10045F5A4 /* HTContainerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B47A1E19684CB60045F5A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B479F119684CB60045F5A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B479F819684CB60045F5A4;
+			remoteInfo = "Cocoa-Autolayout-Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B479F919684CB60045F5A4 /* Cocoa-Autolayout-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa-Autolayout-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B479FC19684CB60045F5A4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F3B479FF19684CB60045F5A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F3B47A0019684CB60045F5A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F3B47A0119684CB60045F5A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3B47A0419684CB60045F5A4 /* Cocoa-Autolayout-Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Autolayout-Animation-Info.plist"; sourceTree = "<group>"; };
+		F3B47A0619684CB60045F5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B47A0819684CB60045F5A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B47A0A19684CB60045F5A4 /* Cocoa-Autolayout-Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoa-Autolayout-Animation-Prefix.pch"; sourceTree = "<group>"; };
+		F3B47A0C19684CB60045F5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F3B47A0E19684CB60045F5A4 /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		F3B47A0F19684CB60045F5A4 /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		F3B47A1219684CB60045F5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F3B47A1419684CB60045F5A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3B47A1A19684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocoa-Autolayout-AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B47A1B19684CB60045F5A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3B47A2219684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Autolayout-AnimationTests-Info.plist"; sourceTree = "<group>"; };
+		F3B47A2419684CB60045F5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B47A2619684CB60045F5A4 /* Cocoa_Autolayout_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocoa_Autolayout_AnimationTests.m; sourceTree = "<group>"; };
+		F3B47A30196853E60045F5A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3B47A3219685AF10045F5A4 /* HTContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTContainerView.h; sourceTree = "<group>"; };
+		F3B47A3319685AF10045F5A4 /* HTContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTContainerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B479F619684CB60045F5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A31196853E60045F5A4 /* QuartzCore.framework in Frameworks */,
+				F3B479FD19684CB60045F5A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B47A1719684CB60045F5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A1D19684CB60045F5A4 /* Cocoa.framework in Frameworks */,
+				F3B47A1C19684CB60045F5A4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B479F019684CB60045F5A4 = {
+			isa = PBXGroup;
+			children = (
+				F3B47A0219684CB60045F5A4 /* Cocoa-Autolayout-Animation */,
+				F3B47A2019684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests */,
+				F3B479FB19684CB60045F5A4 /* Frameworks */,
+				F3B479FA19684CB60045F5A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B479FA19684CB60045F5A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B479F919684CB60045F5A4 /* Cocoa-Autolayout-Animation.app */,
+				F3B47A1A19684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B479FB19684CB60045F5A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A30196853E60045F5A4 /* QuartzCore.framework */,
+				F3B479FC19684CB60045F5A4 /* Cocoa.framework */,
+				F3B47A1B19684CB60045F5A4 /* XCTest.framework */,
+				F3B479FE19684CB60045F5A4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B479FE19684CB60045F5A4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B479FF19684CB60045F5A4 /* AppKit.framework */,
+				F3B47A0019684CB60045F5A4 /* CoreData.framework */,
+				F3B47A0119684CB60045F5A4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F3B47A0219684CB60045F5A4 /* Cocoa-Autolayout-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A0E19684CB60045F5A4 /* HTAppDelegate.h */,
+				F3B47A0F19684CB60045F5A4 /* HTAppDelegate.m */,
+				F3B47A1119684CB60045F5A4 /* MainMenu.xib */,
+				F3B47A1419684CB60045F5A4 /* Images.xcassets */,
+				F3B47A0319684CB60045F5A4 /* Supporting Files */,
+				F3B47A3219685AF10045F5A4 /* HTContainerView.h */,
+				F3B47A3319685AF10045F5A4 /* HTContainerView.m */,
+			);
+			path = "Cocoa-Autolayout-Animation";
+			sourceTree = "<group>";
+		};
+		F3B47A0319684CB60045F5A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A0419684CB60045F5A4 /* Cocoa-Autolayout-Animation-Info.plist */,
+				F3B47A0519684CB60045F5A4 /* InfoPlist.strings */,
+				F3B47A0819684CB60045F5A4 /* main.m */,
+				F3B47A0A19684CB60045F5A4 /* Cocoa-Autolayout-Animation-Prefix.pch */,
+				F3B47A0B19684CB60045F5A4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B47A2019684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A2619684CB60045F5A4 /* Cocoa_Autolayout_AnimationTests.m */,
+				F3B47A2119684CB60045F5A4 /* Supporting Files */,
+			);
+			path = "Cocoa-Autolayout-AnimationTests";
+			sourceTree = "<group>";
+		};
+		F3B47A2119684CB60045F5A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A2219684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests-Info.plist */,
+				F3B47A2319684CB60045F5A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B479F819684CB60045F5A4 /* Cocoa-Autolayout-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B47A2A19684CB60045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-Animation" */;
+			buildPhases = (
+				F3B479F519684CB60045F5A4 /* Sources */,
+				F3B479F619684CB60045F5A4 /* Frameworks */,
+				F3B479F719684CB60045F5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoa-Autolayout-Animation";
+			productName = "Cocoa-Autolayout-Animation";
+			productReference = F3B479F919684CB60045F5A4 /* Cocoa-Autolayout-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B47A1919684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B47A2D19684CB60045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-AnimationTests" */;
+			buildPhases = (
+				F3B47A1619684CB60045F5A4 /* Sources */,
+				F3B47A1719684CB60045F5A4 /* Frameworks */,
+				F3B47A1819684CB60045F5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B47A1F19684CB60045F5A4 /* PBXTargetDependency */,
+			);
+			name = "Cocoa-Autolayout-AnimationTests";
+			productName = "Cocoa-Autolayout-AnimationTests";
+			productReference = F3B47A1A19684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B479F119684CB60045F5A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Helftone;
+				TargetAttributes = {
+					F3B47A1919684CB60045F5A4 = {
+						TestTargetID = F3B479F819684CB60045F5A4;
+					};
+				};
+			};
+			buildConfigurationList = F3B479F419684CB60045F5A4 /* Build configuration list for PBXProject "Cocoa-Autolayout-Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B479F019684CB60045F5A4;
+			productRefGroup = F3B479FA19684CB60045F5A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B479F819684CB60045F5A4 /* Cocoa-Autolayout-Animation */,
+				F3B47A1919684CB60045F5A4 /* Cocoa-Autolayout-AnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B479F719684CB60045F5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A0719684CB60045F5A4 /* InfoPlist.strings in Resources */,
+				F3B47A1519684CB60045F5A4 /* Images.xcassets in Resources */,
+				F3B47A0D19684CB60045F5A4 /* Credits.rtf in Resources */,
+				F3B47A1319684CB60045F5A4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B47A1819684CB60045F5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A2519684CB60045F5A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B479F519684CB60045F5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A1019684CB60045F5A4 /* HTAppDelegate.m in Sources */,
+				F3B47A3419685AF10045F5A4 /* HTContainerView.m in Sources */,
+				F3B47A0919684CB60045F5A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B47A1619684CB60045F5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A2719684CB60045F5A4 /* Cocoa_Autolayout_AnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B47A1F19684CB60045F5A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B479F819684CB60045F5A4 /* Cocoa-Autolayout-Animation */;
+			targetProxy = F3B47A1E19684CB60045F5A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B47A0519684CB60045F5A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B47A0619684CB60045F5A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3B47A0B19684CB60045F5A4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B47A0C19684CB60045F5A4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F3B47A1119684CB60045F5A4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B47A1219684CB60045F5A4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F3B47A2319684CB60045F5A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B47A2419684CB60045F5A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B47A2819684CB60045F5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F3B47A2919684CB60045F5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3B47A2B19684CB60045F5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Animation/Cocoa-Autolayout-Animation-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Autolayout-Animation/Cocoa-Autolayout-Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3B47A2C19684CB60045F5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Animation/Cocoa-Autolayout-Animation-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Autolayout-Animation/Cocoa-Autolayout-Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3B47A2E19684CB60045F5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Autolayout-Animation.app/Contents/MacOS/Cocoa-Autolayout-Animation";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Animation/Cocoa-Autolayout-Animation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cocoa-Autolayout-AnimationTests/Cocoa-Autolayout-AnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3B47A2F19684CB60045F5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Autolayout-Animation.app/Contents/MacOS/Cocoa-Autolayout-Animation";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Autolayout-Animation/Cocoa-Autolayout-Animation-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Autolayout-AnimationTests/Cocoa-Autolayout-AnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B479F419684CB60045F5A4 /* Build configuration list for PBXProject "Cocoa-Autolayout-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B47A2819684CB60045F5A4 /* Debug */,
+				F3B47A2919684CB60045F5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B47A2A19684CB60045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B47A2B19684CB60045F5A4 /* Debug */,
+				F3B47A2C19684CB60045F5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B47A2D19684CB60045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Autolayout-AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B47A2E19684CB60045F5A4 /* Debug */,
+				F3B47A2F19684CB60045F5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B479F119684CB60045F5A4 /* Project object */;
+}

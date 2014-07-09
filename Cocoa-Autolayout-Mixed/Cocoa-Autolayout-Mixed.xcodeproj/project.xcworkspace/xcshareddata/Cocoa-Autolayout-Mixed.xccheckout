@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>983891BD-60DF-4A7C-8CC6-7480F5D84DC3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cocoa-Autolayout-Mixed</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC376B8E-7420-4FFC-9490-43DC6081C3F8</key>
+		<string>ssh://bitbucket.org/milen/helftone-web.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>blog/resources/autolayout/Cocoa-Autolayout-Mixed/Cocoa-Autolayout-Mixed.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC376B8E-7420-4FFC-9490-43DC6081C3F8</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/milen/helftone-web.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC376B8E-7420-4FFC-9490-43DC6081C3F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC376B8E-7420-4FFC-9490-43DC6081C3F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>helftone-web</string>
+		</dict>
+	</array>
+</dict>
+</plist>

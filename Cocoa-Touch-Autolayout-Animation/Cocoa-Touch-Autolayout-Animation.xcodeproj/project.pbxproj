@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B47A4219685DB80045F5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A4119685DB80045F5A4 /* Foundation.framework */; };
+		F3B47A4419685DB80045F5A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A4319685DB80045F5A4 /* CoreGraphics.framework */; };
+		F3B47A4619685DB80045F5A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A4519685DB80045F5A4 /* UIKit.framework */; };
+		F3B47A4C19685DB80045F5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A4A19685DB80045F5A4 /* InfoPlist.strings */; };
+		F3B47A4E19685DB80045F5A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A4D19685DB80045F5A4 /* main.m */; };
+		F3B47A5219685DB80045F5A4 /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A5119685DB80045F5A4 /* HTAppDelegate.m */; };
+		F3B47A5519685DB80045F5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A5319685DB80045F5A4 /* Main.storyboard */; };
+		F3B47A5819685DB80045F5A4 /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A5719685DB80045F5A4 /* HTViewController.m */; };
+		F3B47A5A19685DB80045F5A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A5919685DB80045F5A4 /* Images.xcassets */; };
+		F3B47A6119685DB80045F5A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A6019685DB80045F5A4 /* XCTest.framework */; };
+		F3B47A6219685DB80045F5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A4119685DB80045F5A4 /* Foundation.framework */; };
+		F3B47A6319685DB80045F5A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B47A4519685DB80045F5A4 /* UIKit.framework */; };
+		F3B47A6B19685DB80045F5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B47A6919685DB80045F5A4 /* InfoPlist.strings */; };
+		F3B47A6D19685DB80045F5A4 /* Cocoa_Touch_Autolayout_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B47A6C19685DB80045F5A4 /* Cocoa_Touch_Autolayout_AnimationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B47A6419685DB80045F5A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B47A3619685DB80045F5A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B47A3D19685DB80045F5A4;
+			remoteInfo = "Cocoa-Touch-Autolayout-Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B47A3E19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa-Touch-Autolayout-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B47A4119685DB80045F5A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3B47A4319685DB80045F5A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3B47A4519685DB80045F5A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3B47A4919685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Touch-Autolayout-Animation-Info.plist"; sourceTree = "<group>"; };
+		F3B47A4B19685DB80045F5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B47A4D19685DB80045F5A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B47A4F19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoa-Touch-Autolayout-Animation-Prefix.pch"; sourceTree = "<group>"; };
+		F3B47A5019685DB80045F5A4 /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		F3B47A5119685DB80045F5A4 /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		F3B47A5419685DB80045F5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B47A5619685DB80045F5A4 /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
+		F3B47A5719685DB80045F5A4 /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
+		F3B47A5919685DB80045F5A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3B47A5F19685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocoa-Touch-Autolayout-AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B47A6019685DB80045F5A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3B47A6819685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-Touch-Autolayout-AnimationTests-Info.plist"; sourceTree = "<group>"; };
+		F3B47A6A19685DB80045F5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B47A6C19685DB80045F5A4 /* Cocoa_Touch_Autolayout_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocoa_Touch_Autolayout_AnimationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B47A3B19685DB80045F5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A4419685DB80045F5A4 /* CoreGraphics.framework in Frameworks */,
+				F3B47A4619685DB80045F5A4 /* UIKit.framework in Frameworks */,
+				F3B47A4219685DB80045F5A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B47A5C19685DB80045F5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A6119685DB80045F5A4 /* XCTest.framework in Frameworks */,
+				F3B47A6319685DB80045F5A4 /* UIKit.framework in Frameworks */,
+				F3B47A6219685DB80045F5A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B47A3519685DB80045F5A4 = {
+			isa = PBXGroup;
+			children = (
+				F3B47A4719685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation */,
+				F3B47A6619685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests */,
+				F3B47A4019685DB80045F5A4 /* Frameworks */,
+				F3B47A3F19685DB80045F5A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B47A3F19685DB80045F5A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A3E19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation.app */,
+				F3B47A5F19685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B47A4019685DB80045F5A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A4119685DB80045F5A4 /* Foundation.framework */,
+				F3B47A4319685DB80045F5A4 /* CoreGraphics.framework */,
+				F3B47A4519685DB80045F5A4 /* UIKit.framework */,
+				F3B47A6019685DB80045F5A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B47A4719685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A5019685DB80045F5A4 /* HTAppDelegate.h */,
+				F3B47A5119685DB80045F5A4 /* HTAppDelegate.m */,
+				F3B47A5319685DB80045F5A4 /* Main.storyboard */,
+				F3B47A5619685DB80045F5A4 /* HTViewController.h */,
+				F3B47A5719685DB80045F5A4 /* HTViewController.m */,
+				F3B47A5919685DB80045F5A4 /* Images.xcassets */,
+				F3B47A4819685DB80045F5A4 /* Supporting Files */,
+			);
+			path = "Cocoa-Touch-Autolayout-Animation";
+			sourceTree = "<group>";
+		};
+		F3B47A4819685DB80045F5A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A4919685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation-Info.plist */,
+				F3B47A4A19685DB80045F5A4 /* InfoPlist.strings */,
+				F3B47A4D19685DB80045F5A4 /* main.m */,
+				F3B47A4F19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B47A6619685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A6C19685DB80045F5A4 /* Cocoa_Touch_Autolayout_AnimationTests.m */,
+				F3B47A6719685DB80045F5A4 /* Supporting Files */,
+			);
+			path = "Cocoa-Touch-Autolayout-AnimationTests";
+			sourceTree = "<group>";
+		};
+		F3B47A6719685DB80045F5A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B47A6819685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests-Info.plist */,
+				F3B47A6919685DB80045F5A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B47A3D19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B47A7019685DB80045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-Animation" */;
+			buildPhases = (
+				F3B47A3A19685DB80045F5A4 /* Sources */,
+				F3B47A3B19685DB80045F5A4 /* Frameworks */,
+				F3B47A3C19685DB80045F5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoa-Touch-Autolayout-Animation";
+			productName = "Cocoa-Touch-Autolayout-Animation";
+			productReference = F3B47A3E19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B47A5E19685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B47A7319685DB80045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-AnimationTests" */;
+			buildPhases = (
+				F3B47A5B19685DB80045F5A4 /* Sources */,
+				F3B47A5C19685DB80045F5A4 /* Frameworks */,
+				F3B47A5D19685DB80045F5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B47A6519685DB80045F5A4 /* PBXTargetDependency */,
+			);
+			name = "Cocoa-Touch-Autolayout-AnimationTests";
+			productName = "Cocoa-Touch-Autolayout-AnimationTests";
+			productReference = F3B47A5F19685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B47A3619685DB80045F5A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Helftone;
+				TargetAttributes = {
+					F3B47A5E19685DB80045F5A4 = {
+						TestTargetID = F3B47A3D19685DB80045F5A4;
+					};
+				};
+			};
+			buildConfigurationList = F3B47A3919685DB80045F5A4 /* Build configuration list for PBXProject "Cocoa-Touch-Autolayout-Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B47A3519685DB80045F5A4;
+			productRefGroup = F3B47A3F19685DB80045F5A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B47A3D19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation */,
+				F3B47A5E19685DB80045F5A4 /* Cocoa-Touch-Autolayout-AnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B47A3C19685DB80045F5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A5A19685DB80045F5A4 /* Images.xcassets in Resources */,
+				F3B47A4C19685DB80045F5A4 /* InfoPlist.strings in Resources */,
+				F3B47A5519685DB80045F5A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B47A5D19685DB80045F5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A6B19685DB80045F5A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B47A3A19685DB80045F5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A5819685DB80045F5A4 /* HTViewController.m in Sources */,
+				F3B47A5219685DB80045F5A4 /* HTAppDelegate.m in Sources */,
+				F3B47A4E19685DB80045F5A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B47A5B19685DB80045F5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B47A6D19685DB80045F5A4 /* Cocoa_Touch_Autolayout_AnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B47A6519685DB80045F5A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B47A3D19685DB80045F5A4 /* Cocoa-Touch-Autolayout-Animation */;
+			targetProxy = F3B47A6419685DB80045F5A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B47A4A19685DB80045F5A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B47A4B19685DB80045F5A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3B47A5319685DB80045F5A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B47A5419685DB80045F5A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B47A6919685DB80045F5A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B47A6A19685DB80045F5A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B47A6E19685DB80045F5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F3B47A6F19685DB80045F5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B47A7119685DB80045F5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Animation/Cocoa-Touch-Autolayout-Animation-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-Animation/Cocoa-Touch-Autolayout-Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3B47A7219685DB80045F5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Animation/Cocoa-Touch-Autolayout-Animation-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-Animation/Cocoa-Touch-Autolayout-Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3B47A7419685DB80045F5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Touch-Autolayout-Animation.app/Cocoa-Touch-Autolayout-Animation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Animation/Cocoa-Touch-Autolayout-Animation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-AnimationTests/Cocoa-Touch-Autolayout-AnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3B47A7519685DB80045F5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocoa-Touch-Autolayout-Animation.app/Cocoa-Touch-Autolayout-Animation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-Touch-Autolayout-Animation/Cocoa-Touch-Autolayout-Animation-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-Touch-Autolayout-AnimationTests/Cocoa-Touch-Autolayout-AnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B47A3919685DB80045F5A4 /* Build configuration list for PBXProject "Cocoa-Touch-Autolayout-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B47A6E19685DB80045F5A4 /* Debug */,
+				F3B47A6F19685DB80045F5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B47A7019685DB80045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B47A7119685DB80045F5A4 /* Debug */,
+				F3B47A7219685DB80045F5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3B47A7319685DB80045F5A4 /* Build configuration list for PBXNativeTarget "Cocoa-Touch-Autolayout-AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B47A7419685DB80045F5A4 /* Debug */,
+				F3B47A7519685DB80045F5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B47A3619685DB80045F5A4 /* Project object */;
+}
